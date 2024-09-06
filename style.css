@@ -24,7 +24,7 @@ body {
 
 /* Header Styles */
 header {
-    background: linear-gradient(to right, #36d1dc, #5b86e5);
+    background: linear-gradient(to right, #6EC1E4, #5B86E5); /* Light blue gradient */
     color: white;
     text-align: center;
     padding: 80px 0;
@@ -68,7 +68,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #36d1dc;
+    color: #6EC1E4; /* Light blue hover effect */
 }
 
 /* Section Styles */
@@ -87,7 +87,7 @@ section:hover {
 
 h2 {
     font-size: 2.8em;
-    color: #36d1dc;
+    color: #6EC1E4; /* Light blue section headings */
     margin-bottom: 20px;
     text-align: center;
     font-weight: 600;
@@ -113,13 +113,13 @@ ul {
 
 /* Contact Section */
 section#contact a {
-    color: #36d1dc;
+    color: #6EC1E4; /* Light blue for contact links */
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 section#contact a:hover {
-    color: #5b86e5;
+    color: #5B86E5;
     text-decoration: underline;
 }
 
@@ -155,6 +155,10 @@ html {
     }
 
     section {
+        padding: 20px;
+    }
+}
+
         padding: 20px;
     }
 }
