@@ -1,3 +1,6 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 /* General Styles */
 * {
     margin: 0;
@@ -6,9 +9,9 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #f9f9f9;
     color: #333;
     margin: 0;
 }
@@ -21,22 +24,23 @@ body {
 
 /* Header Styles */
 header {
-    background: linear-gradient(to right, #4CAF50, #45a049);
+    background: linear-gradient(to right, #36d1dc, #5b86e5);
     color: white;
     text-align: center;
-    padding: 60px 0;
+    padding: 80px 0;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
-    font-size: 3.5em;
-    font-weight: bold;
+    font-size: 3.8em;
+    font-weight: 600;
     margin-bottom: 10px;
 }
 
 header p {
-    font-size: 1.5em;
-    font-style: italic;
+    font-size: 1.4em;
+    font-weight: 300;
+    letter-spacing: 1px;
 }
 
 /* Navigation Bar */
@@ -51,40 +55,49 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    display: inline-block;
+    margin: 0 20px;
 }
 
 nav ul li a {
     color: white;
-    font-size: 1.1em;
+    font-size: 1.2em;
     text-decoration: none;
+    font-weight: 400;
     transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    color: #4CAF50;
+    color: #36d1dc;
 }
 
 /* Section Styles */
 section {
     background-color: white;
-    padding: 30px;
+    padding: 40px;
     margin: 20px 0;
-    border-radius: 8px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: translateY(-5px);
 }
 
 h2 {
-    font-size: 2.5em;
-    color: #4CAF50;
+    font-size: 2.8em;
+    color: #36d1dc;
     margin-bottom: 20px;
     text-align: center;
+    font-weight: 600;
 }
 
 h3 {
     margin-top: 20px;
-    font-size: 1.6em;
+    font-size: 1.8em;
+    font-weight: 400;
+    color: #333;
 }
 
 p, ul {
@@ -100,12 +113,13 @@ ul {
 
 /* Contact Section */
 section#contact a {
-    color: #4CAF50;
+    color: #36d1dc;
     text-decoration: none;
-    transition: text-decoration 0.3s;
+    transition: color 0.3s ease;
 }
 
 section#contact a:hover {
+    color: #5b86e5;
     text-decoration: underline;
 }
 
@@ -115,8 +129,9 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
-    font-size: 1.1em;
+    font-size: 1.2em;
     margin-top: 40px;
+    letter-spacing: 0.5px;
 }
 
 footer p {
