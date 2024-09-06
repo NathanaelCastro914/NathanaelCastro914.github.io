@@ -10,7 +10,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    line-height: 1.6;
+    line-height: 1.8; /* Increased line height for better readability */
     background-color: #f9f9f9;
     color: #333;
     margin: 0;
@@ -19,7 +19,7 @@ body {
 .container {
     width: 85%;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 40px 0; /* Added padding for breathing room */
 }
 
 /* Header Styles */
@@ -32,15 +32,15 @@ header {
 }
 
 header h1 {
-    font-size: 3.8em;
+    font-size: 3.5em; /* Slightly smaller for better readability */
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 header p {
-    font-size: 1.4em;
+    font-size: 1.5em; /* Increased font size for better text balance */
     font-weight: 300;
-    letter-spacing: 1px;
+    letter-spacing: 1.2px; /* Added letter spacing for professional look */
 }
 
 /* Navigation Bar */
@@ -74,8 +74,8 @@ nav ul li a:hover {
 /* Section Styles */
 section {
     background-color: white;
-    padding: 40px;
-    margin: 20px 0;
+    padding: 50px; /* Increased padding for spacing */
+    margin: 30px 0; /* More margin between sections */
     border-radius: 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
@@ -86,29 +86,31 @@ section:hover {
 }
 
 h2 {
-    font-size: 2.8em;
+    font-size: 2.6em; /* Adjusted font size */
     color: #6EC1E4; /* Light blue section headings */
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     text-align: center;
     font-weight: 600;
 }
 
 h3 {
-    margin-top: 20px;
+    margin-top: 25px;
     font-size: 1.8em;
     font-weight: 400;
     color: #333;
+    letter-spacing: 0.5px; /* Added letter spacing for clarity */
 }
 
 p, ul {
-    margin: 10px 0;
-    font-size: 1.2em;
-    line-height: 1.8;
+    margin: 20px 0; /* Added spacing for paragraphs */
+    font-size: 1.25em; /* Increased font size for readability */
+    line-height: 1.8; /* Improved line spacing */
+    letter-spacing: 0.4px; /* More space between letters */
 }
 
 ul {
     list-style-type: disc;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 /* Contact Section */
@@ -155,10 +157,14 @@ html {
     }
 
     section {
-        padding: 20px;
+        padding: 30px;
     }
-}
 
-        padding: 20px;
+    h2 {
+        font-size: 2.2em;
+    }
+
+    p, ul {
+        font-size: 1.15em;
     }
 }
